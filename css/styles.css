@@ -1,0 +1,48 @@
+.header {
+  width: 1358px;
+  margin: 0 auto;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: crimson;
+  text-decoration: none;
+}
+.span {
+  color: black;
+}
+.list-brothers {
+  display: flex;
+  margin: 0 auto;
+  list-style: none;
+}
+.text {
+  margin-right: 20px;
+}
+.link {
+  text-decoration: none;
+  color: brown;
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+}
+.container-adress {
+  display: flex;
+  justify-content: end;
+}
+.list-adress {
+  list-style: none;
+}
+.house-adress {
+  margin-right: 10px;
+}
+.text-adress {
+  text-decoration: none;
+  color: blueviolet;
+}
