@@ -99,6 +99,7 @@
 /* section-two */
 .section-two {
   margin-bottom: 120px;
+  background-color: brown;
 }
 .title {
   text-align: center;
@@ -126,6 +127,7 @@
 /* section-three */
 .section-three {
   margin-bottom: 120px;
+  background-color: black;
 }
 .list-img {
   justify-content: center;
@@ -141,4 +143,34 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
   color: crimson;
+}
+/* section-four */
+.section-four {
+  margin-bottom: 120px;
+  background-color: brown;
+}
+.container-weknow {
+  display: flex;
+  justify-content: center;
+}
+.list-weknow {
+  list-style: none;
+}
+.li-img {
+  margin-bottom: 10px;
+}
+/* container-five */
+.section-five {
+  margin-bottom: 120px;
+  background-color: crimson;
+}
+.list-images {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.li-images {
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
