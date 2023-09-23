@@ -12,7 +12,12 @@
   justify-content: space-between;
   padding-top: 50px;
 }
-
+.icon-skyrim {
+  align-items: center;
+}
+.icon-skyrim:hover {
+  fill: crimson;
+}
 .logo {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 25px;
@@ -127,6 +132,10 @@
   margin: 0 auto;
   margin-bottom: 120px;
   background-image: url(../images/dark-retual.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   border: solid 1px;
   border-radius: 15px;
 }
@@ -163,15 +172,18 @@
 
 /* section-three */
 .section-three {
-  margin-bottom: 120px;
   background-color: black;
   width: 1670px;
   height: 1000px;
   margin: 0 auto;
   background-image: url(../images/darkbrotherhood-dark.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border: solid 1px;
   border-radius: 15px;
   border-color: crimson;
+  margin-bottom: 120px;
 }
 .title-guardian {
   text-align: center;
@@ -202,6 +214,8 @@
   border: solid 1px red;
   border-radius: 15px;
   overflow: hidden;
+  width: 560px;
+  height: 360px;
 }
 .title-cicero {
   font-size: 17px;
@@ -211,9 +225,26 @@
 }
 /* section-four */
 .section-four {
+  width: 1670px;
+  margin: 0 auto;
+  height: 1000px;
+  background-image: url(../images/il_fullxfull..webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 1px;
+  border-radius: 15px;
   margin-bottom: 120px;
-  background-color: brown;
 }
+.title-find {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  color: crimson;
+}
+
 .container-weknow {
   display: flex;
   justify-content: center;
@@ -223,6 +254,52 @@
 }
 .li-img {
   margin-bottom: 10px;
+  border: solid 1px;
+  border-radius: 15px;
+  overflow: hidden;
+  border-color: brown;
+}
+.list-rules {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.li-list {
+  margin-right: 10px;
+  border: solid 1px;
+  border-radius: 15px;
+  border-color: red;
+  background-color: black;
+  padding-bottom: 10px;
+}
+.li-list:hover,
+:focus {
+  background-color: crimson;
+  border-color: black;
+}
+.title-rules {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: crimson;
+  font-weight: 700;
+  letter-spacing: 0.02mm;
+}
+.title-rules:hover,
+:focus {
+  color: black;
+}
+.comment-rules {
+  font-size: 19px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
+  color: crimson;
+  padding-left: 10px;
+}
+.comment-rules:hover,
+:focus {
+  color: black;
 }
 /* container-five */
 .section-five {
@@ -238,4 +315,77 @@
 .li-images {
   margin-right: 10px;
   margin-bottom: 10px;
+}
+/* section-five */
+.section-five {
+  width: 1670px;
+  margin: 0 auto;
+  height: 1100px;
+  border: solid 1px;
+  border-radius: 15px;
+  background-image: url(../images/darbrothers.jpg);
+  margin-bottom: 120px;
+}
+.title-five {
+  text-align: center;
+  text-decoration: solid;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.02mm;
+  color: crimson;
+}
+.list-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.li-images {
+  width: calc((100% - 16px) / 3);
+}
+.box-portfolio {
+  border: solid 1px;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 500px;
+  height: 300px;
+  border-color: rebeccapurple;
+}
+.img-portfolio {
+  width: 500px;
+  height: 300px;
+}
+/* footer */
+.footer {
+  width: 1670px;
+  margin: 0 auto;
+  background-color: rgb(29, 5, 46);
+}
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-logo {
+  padding-top: 20px;
+  margin-right: 120px;
+}
+.logo-footer {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  letter-spacing: 0.02mm;
+  color: rgb(255, 255, 255);
+}
+.span-two {
+  color: crimson;
+}
+.comment-footer {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}
+.list-icon-footer {
 }
