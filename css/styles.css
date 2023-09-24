@@ -1,5 +1,6 @@
 .header {
   width: 1458px;
+  height: 190px;
   margin: 0 auto;
 }
 .container {
@@ -10,7 +11,7 @@
 .container-header {
   display: flex;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 .icon-skyrim {
   align-items: center;
@@ -29,6 +30,7 @@
 :focus {
   color: black;
 }
+
 .span {
   color: black;
 }
@@ -55,9 +57,11 @@
 :focus {
   color: black;
 }
+
 .container-adress {
   display: flex;
   justify-content: end;
+  margin: 0 auto;
 }
 .list-adress {
   list-style: none;
@@ -68,6 +72,11 @@
 .text-adress {
   text-decoration: none;
   color: blueviolet;
+}
+
+.list-icon-header {
+  list-style: none;
+  display: flex;
 }
 /* section-one */
 .section-one {
@@ -358,6 +367,7 @@
 /* footer */
 .footer {
   width: 1670px;
+  height: 200px;
   margin: 0 auto;
   background-color: rgb(29, 5, 46);
 }
@@ -377,6 +387,22 @@
   letter-spacing: 0.02mm;
   color: rgb(255, 255, 255);
 }
+.logo-footer:before {
+  width: 120px;
+  height: 4px;
+  content: "";
+  display: block;
+  background-color: crimson;
+}
+.logo-footer:after {
+  width: 120px;
+  height: 4px;
+  content: "";
+  display: block;
+  background-color: crimson;
+  margin-top: 5px;
+}
+
 .span-two {
   color: crimson;
 }
@@ -386,6 +412,73 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: aliceblue;
+  text-align: center;
 }
-.list-icon-footer {
+.container-list-icon-footer {
+  margin-right: 120px;
+}
+.list-footer {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.li-icon {
+  margin-right: 17px;
+}
+.icon-social {
+  fill: crimson;
+}
+.icon-social:hover,
+:focus {
+  fill: black;
+}
+.container-subscribe {
+}
+.comment-subsceibe {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.form {
+  display: flex;
+}
+.input {
+  width: 350px;
+  height: 40px;
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: brown;
+  background-color: transparent;
+  font-size: 20px;
+  letter-spacing: 0.02mm;
+  padding-left: 16px;
+  line-height: 1.5;
+  margin-right: 15px;
+}
+.input::placeholder {
+  color: crimson;
+}
+.input:hover,
+:focus {
+  border-color: black;
+}
+.button-subscribe {
+  width: 150px;
+  height: 40px;
+  color: black;
+  background-color: crimson;
+  border: solid 1px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.button-subscribe:hover,
+:focus {
+  background-color: black;
+  color: crimson;
 }
