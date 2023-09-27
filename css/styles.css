@@ -1,20 +1,24 @@
 .header {
   width: 1458px;
-  height: 190px;
+  height: 140px;
   margin: 0 auto;
   background-color: white;
 }
 
 .container {
-  width: 1458px;
-  padding-left: 16px;
-  padding-right: 16px;
+  width: 1670px;
+  margin: 0 auto;
+  height: 1100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .container-header {
   display: flex;
   justify-content: space-between;
-  padding-top: 70px;
   position: fixed;
+}
+.icon-logo {
+  margin-top: 30px;
 }
 .icon-skyrim {
   align-items: center;
@@ -37,6 +41,7 @@
   transition-duration: 250ms;
   transition-delay: 150ms;
   transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  padding-top: 50px;
 }
 .logo:hover,
 :focus {
@@ -58,6 +63,7 @@
   display: flex;
   margin: 0 auto;
   list-style: none;
+  padding-top: 50px;
 }
 .text {
   margin-right: 20px;
@@ -502,6 +508,125 @@ a:focus .text-transform-four {
 .img-portfolio {
   width: 500px;
   height: 300px;
+}
+/* Section-six */
+.section-six {
+  width: 1670px;
+  margin: 0 auto;
+  height: 1100px;
+  border: solid 1px;
+  border-radius: 15px;
+  margin-bottom: 120px;
+  justify-content: center;
+  display: flex;
+  background-image: url(../images/dawnguard.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+.container-six {
+  display: flex;
+  justify-content: center;
+}
+.container-heroes {
+  width: 500px;
+  height: 400px;
+  margin-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.heroes {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: black;
+}
+.comment-about-skyrim {
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 400;
+  color: gray;
+}
+.container-skyrim {
+  width: 1000px;
+  height: 900px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.img {
+  border: solid 1px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.button-skyrim {
+  width: 300px;
+  height: 50px;
+  border: solid 1px;
+  border-radius: 15px;
+  color: crimson;
+  background-color: black;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.button-skyrim:hover,
+:focus {
+  border-color: blue;
+  color: blue;
+  background-color: blanchedalmond;
+}
+/* section-seven */
+.section-seven {
+  width: 1670px;
+  margin: 0 auto;
+  height: 1100px;
+  border: solid 1px;
+  border-radius: 15px;
+  margin-bottom: 120px;
+}
+.commands {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  margin-left: 40px;
+}
+.container-command-main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.container-command {
+  width: 500px;
+  height: 400px;
+  margin-right: 30px;
+  border: solid 1px;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.title-name {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+}
+.comment-command {
+  font-size: 17px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 /* footer */
 .footer {
