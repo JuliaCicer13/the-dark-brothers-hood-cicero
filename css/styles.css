@@ -628,6 +628,32 @@ a:focus .text-transform-four {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+/* section-eight */
+.section-eight {
+  width: 1670px;
+  margin: 0 auto;
+  height: 1100px;
+  border: solid 1px;
+  border-radius: 15px;
+  margin-bottom: 120px;
+  overflow: hidden;
+  border-color: crimson;
+}
+/* section-nine */
+.section-nine {
+  width: 1670px;
+  margin: 0 auto;
+  height: 1100px;
+  border: solid 1px;
+  border-radius: 15px;
+  margin-bottom: 120px;
+  overflow: hidden;
+  border-color: crimson;
+}
+.container-nine {
+  display: flex;
+  justify-content: center;
+}
 /* footer */
 .footer {
   width: 1670px;
