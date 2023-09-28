@@ -656,6 +656,25 @@ a:focus .text-transform-four {
   display: flex;
   justify-content: center;
 }
+.container-img {
+  width: 561px;
+  height: 520px;
+  margin-right: 80px;
+  border: solid 1px;
+  border-radius: 15px;
+  overflow: hidden;
+  border-color: brown;
+  margin-top: 50px;
+}
+.container-vampire {
+  width: 500px;
+  height: 400px;
+  margin-top: 40px;
+}
+.text-vampire {
+  width: 600;
+  font-size: 34px;
+}
 /* footer */
 .footer {
   width: 1670px;
