@@ -15,7 +15,6 @@
 .container-header {
   display: flex;
   justify-content: space-between;
-  position: fixed;
 }
 .icon-logo {
   margin-top: 30px;
@@ -261,6 +260,9 @@
 .img-cicero {
   margin-right: 18px;
   margin-bottom: 18px;
+}
+.link-cicero {
+  text-decoration: none;
 }
 .box-cicero {
   border: solid 1px red;
