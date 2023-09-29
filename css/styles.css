@@ -3,6 +3,9 @@
   height: 140px;
   margin: 0 auto;
   background-color: white;
+
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 
 .container {
@@ -45,6 +48,8 @@
 .logo:hover,
 :focus {
   color: black;
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 
 .span {
@@ -163,6 +168,8 @@
   transition-duration: 250ms;
   transition-delay: 150ms;
   transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 .button:hover {
   color: crimson;
@@ -198,6 +205,8 @@
   width: 1500px;
   height: 750px;
   padding-top: 200px;
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 
 .title-dogma {
@@ -235,6 +244,8 @@
   border-radius: 15px;
   border-color: crimson;
   margin-bottom: 120px;
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 .title-guardian {
   text-align: center;
@@ -256,6 +267,8 @@
   display: flex;
   list-style: none;
   flex-wrap: wrap;
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 .img-cicero {
   margin-right: 18px;
@@ -272,6 +285,8 @@
   height: 360px;
   position: relative;
   overflow: scroll;
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 .text-transform {
   position: absolute;
@@ -290,12 +305,18 @@
   transition-duration: 250ms;
   transition-delay: 150ms;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 a:hover .text-transform {
   transform: translateY(0%);
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 a:focus .text-transform {
   transform: translateY(0%);
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 .text-transform-two {
   position: absolute;
@@ -432,6 +453,8 @@ a:focus .text-transform-four {
 :focus {
   background-color: crimson;
   border-color: black;
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 .title-rules {
   text-align: center;
@@ -589,6 +612,8 @@ a:focus .text-transform-four {
   transition-duration: 350ms;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 /* section-seven */
 .section-seven {
@@ -654,6 +679,8 @@ a:focus .text-transform-four {
   margin-bottom: 120px;
   overflow: hidden;
   border-color: crimson;
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 /* section-nine */
 .section-nine {
@@ -800,6 +827,8 @@ a:focus .text-transform-four {
 .icon-social:hover,
 :focus {
   fill: black;
+  box-shadow: 20px 30px 50px 50px;
+  box-shadow: color red blue green crimson;
 }
 .container-subscribe {
 }
@@ -862,4 +891,30 @@ a:focus .text-transform-four {
 :focus {
   background-color: black;
   color: crimson;
+}
+.button-modal-open {
+  width: 100px;
+  height: 40px;
+  border: solid 1px;
+  border-radius: 15px;
+  border-color: brown;
+  background-color: crimson;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 10px;
+  transition-property: 350ms;
+  transition-timing-function: 250ms;
+  transition-delay: 250ms;
+}
+.button-modal-open:hover,
+:focus {
+  color: brown;
+  background-color: black;
+  border-color: blueviolet;
+  transition-property: 350ms;
+  transition-timing-function: 250ms;
+  transition-delay: 250ms;
 }
