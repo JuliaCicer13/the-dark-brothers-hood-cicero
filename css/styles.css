@@ -675,6 +675,19 @@ a:focus .text-transform-four {
   width: 600;
   font-size: 34px;
 }
+.container-label {
+  margin-bottom: 10px;
+}
+.label {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 19px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: brown;
+}
+
 /* footer */
 .footer {
   width: 1670px;
