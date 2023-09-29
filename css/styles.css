@@ -637,6 +637,7 @@ a:focus .text-transform-four {
   width: 100%;
   height: 100%;
   padding-top: 200px;
+  flex-wrap: wrap;
 }
 .imgimg {
   position: absolute;
@@ -669,6 +670,87 @@ a:focus .text-transform-four {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: crimson;
 }
+.lisnt-new {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.skyrim {
+  margin-right: 60px;
+  border: solid 1px;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  padding-left: 30px;
+  padding-top: 10px;
+  background-color: black;
+}
+.skyrim:hover,
+:focus {
+  color: crimson;
+  background-color: crimson;
+  transition-duration: 260ms;
+  transition-delay: 160ms;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.skyrim-icon {
+  margin-right: 60px;
+  border: solid 1px;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  padding-left: 30px;
+  padding-top: 10px;
+  background-color: black;
+}
+.skyrim-icon:hover,
+:focus {
+  color: crimson;
+  background-color: black;
+  transition-duration: 260ms;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-delay: 160ms;
+}
+.skyrim-last {
+  margin-right: 60px;
+  border: solid 1px;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  padding-left: 70px;
+  background-color: whitesmoke;
+}
+.skyrim-last:hover,
+:focus {
+  color: crimson;
+  background-color: white;
+  transition-duration: 260ms;
+  transition-delay: 160ms;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.skyrim-last-last {
+  margin-right: 60px;
+  border: solid 1px;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  padding-left: 90px;
+  padding-top: 20px;
+  background-color: crimson;
+}
+.skyrim-last-last:hover,
+:focus {
+  color: crimson;
+  background-color: black;
+  transition-duration: 260ms;
+  transition-delay: 160ms;
+
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
 /* section-eight */
 .section-eight {
   width: 1670px;
@@ -692,7 +774,7 @@ a:focus .text-transform-four {
   margin-bottom: 120px;
   overflow: hidden;
   border-color: crimson;
-  background-color: grey;
+  background-color: dimgray;
   background-image: url(../images/pngwing.com.png);
   background-repeat: no-repeat;
   background-position: right;
