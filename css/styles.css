@@ -577,12 +577,18 @@ a:focus .text-transform-four {
   font-size: 17px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
+  transition-duration: 350ms;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 .button-skyrim:hover,
 :focus {
   border-color: blue;
   color: blue;
   background-color: blanchedalmond;
+  transition-duration: 350ms;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 /* section-seven */
 .section-seven {
@@ -605,7 +611,12 @@ a:focus .text-transform-four {
   justify-content: center;
   width: 100%;
   height: 100%;
+  padding-top: 200px;
 }
+.imgimg {
+  position: absolute;
+}
+
 .container-command {
   width: 500px;
   height: 400px;
@@ -614,6 +625,7 @@ a:focus .text-transform-four {
   border-radius: 15px;
   padding-left: 10px;
   padding-right: 10px;
+  background-image: url(../images/background.jpg);
 }
 .title-name {
   text-align: center;
@@ -622,6 +634,7 @@ a:focus .text-transform-four {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-style: oblique;
+  color: brown;
 }
 .comment-command {
   font-size: 17px;
@@ -629,6 +642,7 @@ a:focus .text-transform-four {
   font-style: italic;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: crimson;
 }
 /* section-eight */
 .section-eight {
@@ -651,6 +665,11 @@ a:focus .text-transform-four {
   margin-bottom: 120px;
   overflow: hidden;
   border-color: crimson;
+  background-color: grey;
+  background-image: url(../images/pngwing.com.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-clip: initial;
 }
 .container-nine {
   display: flex;
@@ -687,7 +706,33 @@ a:focus .text-transform-four {
   font-style: italic;
   color: brown;
 }
+.container-input {
+  position: relative;
+}
+.input {
+  color: transparent;
+  width: 100%;
+  height: 100%;
+}
 
+.container-textarea {
+  margin-top: 10px;
+}
+.textarea {
+  border: solid 1px;
+  border-radius: 15px;
+  border-color: brown;
+  width: 500px;
+  height: 400px;
+  background-color: transparent;
+}
+.textarea::placeholder {
+  color: brown;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
 /* footer */
 .footer {
   width: 1670px;
