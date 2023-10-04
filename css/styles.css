@@ -3,8 +3,7 @@
   height: 140px;
   margin: 0 auto;
   background-color: white;
-
-  box-shadow: 20px 30px 50px 50px;
+  box-shadow: 10px 10px 10px 10px;
   box-shadow: color red blue green crimson;
 }
 
@@ -778,7 +777,8 @@ a:focus .text-transform-four {
   background-image: url(../images/pngwing.com.png);
   background-repeat: no-repeat;
   background-position: right;
-  background-clip: initial;
+
+  position: relative;
 }
 .background {
   width: 1670px;
@@ -851,6 +851,8 @@ a:focus .text-transform-four {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   font-weight: 400;
+
+  position: absolute;
 }
 .button-modal-open {
   font-size: 30px;
@@ -859,6 +861,17 @@ a:focus .text-transform-four {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
 }
+.second-background {
+  background-image: url(../images/pngwing.com.png);
+  background-repeat: no-repeat;
+  background-position: left auto;
+  width: 500px;
+  height: 700px;
+  z-index: 9999;
+  position: absolute;
+  bottom: 50px;
+}
+
 /* footer */
 .footer {
   width: 1670px;
