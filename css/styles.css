@@ -768,18 +768,27 @@ a:focus .text-transform-four {
 .section-nine {
   width: 1670px;
   margin: 0 auto;
-  height: 1100px;
+  height: 1400px;
   border: solid 1px;
   border-radius: 15px;
   margin-bottom: 120px;
   overflow: hidden;
   border-color: crimson;
-  background-color: dimgray;
+  background-color: black;
   background-image: url(../images/pngwing.com.png);
   background-repeat: no-repeat;
   background-position: right;
   background-clip: initial;
 }
+.background {
+  width: 1670px;
+  margin: 0 auto;
+  height: 400px;
+  background-image: url(../images/cicerohight.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container-nine {
   display: flex;
   justify-content: center;
@@ -802,6 +811,7 @@ a:focus .text-transform-four {
 .text-vampire {
   width: 600;
   font-size: 34px;
+  color: azure;
 }
 .container-label {
   margin-bottom: 10px;
@@ -841,6 +851,13 @@ a:focus .text-transform-four {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   font-weight: 400;
+}
+.button-modal-open {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
 }
 /* footer */
 .footer {
