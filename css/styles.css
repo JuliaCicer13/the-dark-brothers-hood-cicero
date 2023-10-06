@@ -3,8 +3,6 @@
   height: 140px;
   margin: 0 auto;
   background-color: white;
-  box-shadow: 10px 10px 10px 10px;
-  box-shadow: color red blue green crimson;
 }
 
 .container {
@@ -47,8 +45,6 @@
 .logo:hover,
 :focus {
   color: black;
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 
 .span {
@@ -167,8 +163,6 @@
   transition-duration: 250ms;
   transition-delay: 150ms;
   transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 .button:hover {
   color: crimson;
@@ -204,8 +198,6 @@
   width: 1500px;
   height: 750px;
   padding-top: 200px;
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 
 .title-dogma {
@@ -243,8 +235,6 @@
   border-radius: 15px;
   border-color: crimson;
   margin-bottom: 120px;
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 .title-guardian {
   text-align: center;
@@ -266,8 +256,6 @@
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 .img-cicero {
   margin-right: 18px;
@@ -284,8 +272,6 @@
   height: 360px;
   position: relative;
   overflow: scroll;
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 .text-transform {
   position: absolute;
@@ -304,18 +290,12 @@
   transition-duration: 250ms;
   transition-delay: 150ms;
   transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 a:hover .text-transform {
   transform: translateY(0%);
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 a:focus .text-transform {
   transform: translateY(0%);
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 .text-transform-two {
   position: absolute;
@@ -452,8 +432,6 @@ a:focus .text-transform-four {
 :focus {
   background-color: crimson;
   border-color: black;
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 .title-rules {
   text-align: center;
@@ -611,8 +589,6 @@ a:focus .text-transform-four {
   transition-duration: 350ms;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 /* section-seven */
 .section-seven {
@@ -760,8 +736,6 @@ a:focus .text-transform-four {
   margin-bottom: 120px;
   overflow: hidden;
   border-color: crimson;
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 /* section-nine */
 .section-nine {
@@ -939,8 +913,6 @@ a:focus .text-transform-four {
 .icon-social:hover,
 :focus {
   fill: black;
-  box-shadow: 20px 30px 50px 50px;
-  box-shadow: color red blue green crimson;
 }
 .container-subscribe {
 }
@@ -1040,18 +1012,62 @@ a:focus .text-transform-four {
   transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition-duration: 360ms;
   transition-delay: 270ms;
-}
-.is-hidden {
-  visibility: hidden;
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
-.modal-wingow {
+
+.container-window.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal-window {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  width: 500px;
-  height: 605px;
+  width: 517px;
+  min-height: 794px;
   background-color: crimson;
+  border: solid 1px;
+  border-radius: 15px;
+  border-color: crimson;
+  padding-top: 34px;
+  padding-left: 20px;
+  padding-right: 24px;
+}
+.window-button {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border: none;
+  background-color: black;
+  cursor: pointer;
+}
+.icon-x {
+  fill: crimson;
+}
+.span-three {
+  color: chocolate;
+}
+.paragraph-window {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.label-modal {
+  font-size: 17px;
+}
+.container-modal-input {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.input-modal {
+  width: 100%;
+  height: 68px;
+  background-color: transparent;
+  border-radius: 10px;
 }
