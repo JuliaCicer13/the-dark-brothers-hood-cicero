@@ -607,9 +607,7 @@
                   </div>
                 </div>
               </div>
-              <button class="button-modal-open" type="submit" data-modal-open>
-                Subscribe
-              </button>
+              <button class="button-modal-open" type="submit">Subscribe</button>
             </form>
           </div>
         </div>
@@ -689,19 +687,55 @@
         </div>
       </div>
     </footer>
-    <div class="container-window is-hidden" data-modal>
-      <div class="modal-wingow">
-        <button class="window-button" type="button" data-modal-close>
-          <svg class="icon-x" width="8" height="8">
+    <div class="container-window is-open">
+      <div class="modal-window">
+        <button class="window-button" type="button">
+          <svg class="icon-x" width="10" height="10">
             <use href="./images/icons.svg.svg#icon-Vector"></use>
           </svg>
         </button>
         <p class="paragraph-window">
-          Leave your contacts and we will call you back
+          Leave your contacts and we
+          <span class="span-three">will call you back</span>
         </p>
+        <form>
+          <div class="container-modal-label">
+            <label class="label-modal" for="user-name">Name</label>
+            <div class="container-modal-input">
+              <input
+                class="input-modal"
+                type="text"
+                id="user-name"
+                name="name"
+              />
+            </div>
+          </div>
+          <div class="container-modal-label">
+            <label class="label-modal" for="user-namber">Number</label>
+            <div class="container-modal-input">
+              <input
+                class="input-modal"
+                type="text"
+                id="user-namber"
+                name="namber"
+              />
+            </div>
+          </div>
+          <div class="container-modal-label">
+            <label class="label-modal" for="user-mail" id="user-mail"
+              >Mail</label
+            >
+            <div class="container-modal-input">
+              <input
+                class="input-modal"
+                id="user-mail"
+                type="text"
+                name="mail"
+              />
+            </div>
+          </div>
+        </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
-    <script src="./js/menu.js"></script>
   </body>
 </html>
